@@ -1,3 +1,3 @@
 #buildproject
-	- name: build app
-	  shel: ng build --prod
+- name: build app
+  shel: ng build --prod
