@@ -1,4 +1,9 @@
 ---
 # tasks file for docker-registry
+- name: Login to DockerHub
+  docker_login:
+    username: utichawa
+    password: yassine1996
+    email: mechicheyassine@gmail.com
 - name: Push to DockerHub
-  command: docker push utichawa/devops:latest
+  command: docker push devops:latest
