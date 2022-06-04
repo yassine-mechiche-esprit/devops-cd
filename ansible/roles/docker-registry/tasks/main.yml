@@ -1,4 +1,4 @@
 ---
 # tasks file for docker-registry
 - name: Push to DockerHub
-  command: docker push utichawa/devops
+  command: docker push utichawa/devops:latest
