@@ -6,4 +6,8 @@
     password: yassine1996
     email: mechicheyassine@gmail.com
 - name: Push to DockerHub
-  command: docker push devops:latest
+  docker_image:
+    name: devops
+    repository: utichawa/devops:latest
+    push: yes
+    source: local
